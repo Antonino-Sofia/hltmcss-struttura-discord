@@ -38,7 +38,7 @@
   width: 15%;
 }
 
-debug .header-content {
+.debug .header-content {
   height: 400px;
   width: 2000px;
   margin: 25px auto;
@@ -101,4 +101,20 @@ debug .header-content {
   margin: auto;
   background-color: #dc7676;
   border: dashed;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.logo,
+.link,
+.login {
+  border: dashed;
+  color: #000000;
+  font-size: 50px;
+  margin: 0;
+  padding: 5px 5px 5px 5px;
 }
